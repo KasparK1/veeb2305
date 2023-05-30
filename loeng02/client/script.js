@@ -15,7 +15,7 @@ fetch('http://localhost:8000')
           <div>${matk.description}</div>
           <a href="https://www.google.com/maps/@${matk.lat},${matk.long},17z" target="_blank">Koguneme siin!</a><br>
           <img src="${matk.imageUrl}">
-        </div>
+        </div>  
       `;
     }
   })

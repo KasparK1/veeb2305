@@ -1,8 +1,4 @@
-#app img {
-    height: 50%;
-    width: 50%;
-}
-
-#app matkad {
-    justify-content: center;
+.matk > img {
+    max-width: 20%;
+    max-height: auto;
 }
