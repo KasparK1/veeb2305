@@ -20,7 +20,7 @@ app.get('/todos', (req, res) => {
 app.post('/todos', (req, res) => {
   todos.push({
     todoId: todoId++,
-    text: req.body.text,
+    text: req.body.text, 
     isChecked: false
   });
   console.log(todos);
